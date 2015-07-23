@@ -1,0 +1,27 @@
+ -- UNIX --
+
+- Gentle Linux Restart
+Hold down "Alt" + "Print Screen" and slowly type reisub
+
+R: Switch the keyboard from raw mode to XLATE mode
+E: Send the SIGTERM signal to all processes except init
+I: Send the SIGKILL signal to all processes except init
+S: Sync all mounted filesystems
+U: Remount all mounted filesystems in read-only mode
+B: Immediately reboot the system, without unmounting partitions or syncing
+
+- Rights
++---+---+---+
+| w | r | x |
++---+---+---+
+| 4 | 2 | 1 |
++---+---+---+
+
+- Command Line shortcuts
+
+!42 -> Cmd 42 in history
+!! -> last command
+!-1 -> last command too
+!$ -> last argument of last command
+!* -> all arguments of last command
+!:2-4 -> arguments 2 to 4 of last command
