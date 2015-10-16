@@ -12,7 +12,7 @@ B: Immediately reboot the system, without unmounting partitions or syncing
 
 - Rights
 +---+---+---+
-| w | r | x |
+| r | w | x |
 +---+---+---+
 | 4 | 2 | 1 |
 +---+---+---+
@@ -25,3 +25,10 @@ B: Immediately reboot the system, without unmounting partitions or syncing
 !$ -> last argument of last command
 !* -> all arguments of last command
 !:2-4 -> arguments 2 to 4 of last command
+
+- Kill SIGNAL
+ 1) SIGHUP
+ 3) SIGQUIT
+ 9) SIGKILL
+15) SIGTERM
+
