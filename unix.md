@@ -1,8 +1,8 @@
- -- UNIX --
-===========
+UNIX
+====
 
-- Gentle Linux Restart
-----------------------
+Gentle Linux Restart
+--------------------
 Hold down "Alt" + "Print Screen" and slowly type reisub  
 
 R: Switch the keyboard from raw mode to XLATE mode  
@@ -18,8 +18,8 @@ B: Immediately reboot the system, without unmounting partitions or syncing
 |---|---|---|
 | 4 | 2 | 1 |
 
-- Command Line shortcuts
-------------------------
+Command Line shortcuts
+----------------------
 
 !42 -> Cmd 42 in history  
 !! -> last command  
@@ -28,15 +28,15 @@ B: Immediately reboot the system, without unmounting partitions or syncing
 !* -> all arguments of last command  
 !:2-4 -> arguments 2 to 4 of last command  
 
-- Kill SIGNAL
--------------
+Kill SIGNAL
+-----------
 1) SIGHUP  
 3) SIGQUIT  
 9) SIGKILL  
 15) SIGTERM  
 
-- Imagemagick resizing
-----------------------
+Imagemagick resizing
+--------------------
 resize image to width 25, keeping aspect ratio  
 > convert -geometry 25x src/image1.png out/image1.png  
 
