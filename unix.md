@@ -42,3 +42,9 @@ resize image to width 25, keeping aspect ratio
 
 resize image to height 25, keeping aspect ratio  
 > convert -geometry x25 src/image1.png out/image1.png  
+
+cd
+--
+cd -> Go to home directory  
+cd ~ -> Go to home directory  
+cd - -> Go to last directory  
