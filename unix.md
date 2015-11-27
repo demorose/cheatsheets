@@ -12,8 +12,8 @@ S: Sync all mounted filesystems
 U: Remount all mounted filesystems in read-only mode  
 B: Immediately reboot the system, without unmounting partitions or syncing  
 
-- Rights
---------
+Rights
+------
 | r | w | x |
 |---|---|---|
 | 4 | 2 | 1 |
